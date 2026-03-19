@@ -1,0 +1,26 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "reactnativenitromemoryutil"
+  ],
+  "ios": {
+    "iosModuleName": "ReactNativeNitroMemoryUtil"
+  },
+  "android": {
+    "androidNamespace": [
+      "reactnativenitromemoryutil"
+    ],
+    "androidCxxLibName": "ReactNativeNitroMemoryUtil"
+  },
+  "autolinking": {
+    "ReactNativeNitroMemoryUtil": {
+      "all": {
+        "language": "c++",
+        "implementationClassName": "HybridReactNativeNitroMemoryUtil"
+      }
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
