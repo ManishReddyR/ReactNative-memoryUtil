@@ -1,0 +1,1 @@
+# react-native-nitro-modules-memory-util
