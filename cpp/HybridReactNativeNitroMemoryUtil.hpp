@@ -7,6 +7,6 @@ class HybridReactNativeNitroMemoryUtil : public HybridReactNativeNitroMemoryUtil
     public:
         HybridReactNativeNitroMemoryUtil() : HybridObject(TAG), HybridReactNativeNitroMemoryUtilSpec() {}
        
-        double sum(double a, double b) override;
+        std::tuple<double, double, double> getMemoryUtilization() override;
     };
 } // namespace margelo::nitro::reactnativenitromemoryutil
