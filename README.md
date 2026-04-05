@@ -2,6 +2,12 @@
 
 A lightweight React Native utility for accessing and monitoring memory usage on mobile devices.
 
+## Overview
+
+react-native-memory-utils provides a simple and efficient way to access device and app memory usage using native capabilities on both Android and iOS.
+
+Built for performance-focused applications, debugging, and monitoring scenarios.
+
 ## Features
 
 * Get real-time memory usage
